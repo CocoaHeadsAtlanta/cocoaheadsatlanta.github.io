@@ -2,30 +2,51 @@
 
 <head>
 <style>
-.Aligner {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+
+#container {
+    display: flex; /* establish flex container */
+    flex-direction: column; /* make main-axis vertical */
+    justify-content: center; /* align items vertically, in this case */
+    align-items: center; /* align items horizontally, in this case */
+    height: 100%; /* for demo purposes */
+    background-color: #eee; /* for demo purposes */
 }
 
-.Aligner-item {
-  max-width: 50%;
+.box {
+    width: 600px;
+    margin: 5px;
+    text-align: left;
+    text-size: -5;
 }
 
-.Aligner-item--top {
-  align-self: flex-start;
+h1 {
+    text-align: center;
 }
 
-.Aligner-item--bottom {
-  align-self: flex-end;
+body {
+    font-family: "Menlo";
 }
+
+#bluebox { background: #ddd; }
+
 </style>
+</head>
 <body>
 
-<div class="Aligner">
-  <div class="Aligner-item Aligner-item--top">Top Item</div>
-  <div class="Aligner-item">Middle Item?</div>
-  <div class="Aligner-item Aligner-item--bottom">Bottom Item</div>
+<div id="container"><!-- flex container -->
+
+    <div class="box" id="bluebox"><!-- flex item -->
+        <h1>/* CocoaHeads Atlanta */</h1>
+        <pre>let nextMeetingDetails = [
+    "location": "<a href=https://www.google.com/maps/place/200+Arizona+Ave+NE/@33.759205,-84.331892,17z/data=!3m1!4b1!4m2!3m1!1s0x88f506ca6779f6cb:0x60f4b0be25aaee99>Big Nerd Ranch HQ</a>",
+    "date": "2016-06-23T19:00:00-04:00", // June 23, 2016 at 7pm ET
+    "title": "TBA",
+    "presenter": "TBA",
+    "description": "TBA",
+    "contact": "<a href=mailto:organizer@cocoaheadsatlanta.org>organizer@cocoaheadsatlanta.org</a>"
+]</pre>
+    </div>
+
 </div>
 
 </body>
