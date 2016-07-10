@@ -1,0 +1,65 @@
+<html>
+
+<head>
+<style>
+
+#container {
+    display: flex; /* establish flex container */
+    flex-direction: column; /* make main-axis vertical */
+    justify-content: center; /* align items vertically, in this case */
+    align-items: center; /* align items horizontally, in this case */
+    height: 100%; /* for demo purposes */
+    background-color: #eee; /* for demo purposes */
+}
+
+.box {
+    width: 600px;
+    margin: 5px;
+    padding: 5px;
+    text-align: left;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    font-family: "Menlo";
+}
+
+#bluebox { background: #ddd; }
+
+</style>
+</head>
+<body>
+
+<div id="container"><!-- flex container -->
+
+    <div class="box" id="bluebox"><!-- flex item -->
+        <h1>/* CocoaHeads Atlanta */</h1>
+<pre>
+let topic = [
+    "<b>presenter</b>" = "Bolot Kerimbaev",
+    "<b>abstract</b>" = "This month, Bolot will talk to us about
+        an under-appreciated WWDC announcement about neural networks, 
+        including a laydev's introduction to machine learning.
+        Join us for food and fun discussion!"
+]
+
+let gettingThere = [
+    "<b>dateTime</b>" = "2016-07-14T19:00:00-04:00", <b>// July 14th @ 7pm EDT</b>
+    "<b>location</b>" = "<a href=https://goo.gl/maps/nc5xuCy6ZVJ2>Big Nerd Ranch HQ</a>"
+]
+
+let chapter = [
+    "<b>parentOrg</b>": "<a href=http://www.cocoaheads.org/>CocoaHeads</a>",
+    "<b>contactEmail</b>": "<a href=mailto:organizer@cocoaheadsatlanta.org>organizer@cocoaheadsatlanta.org</a>",
+    "<b>twitter</b>": "<a href=http://www.twitter.com/chatl>@chatl</a>"
+]
+</pre>
+    </div>
+
+</div>
+
+</body>
+</html>
