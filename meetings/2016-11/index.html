@@ -1,0 +1,62 @@
+<html>
+
+<head>
+<style>
+
+#container {
+    display: flex; /* establish flex container */
+    flex-direction: column; /* make main-axis vertical */
+    justify-content: center; /* align items vertically, in this case */
+    align-items: center; /* align items horizontally, in this case */
+    height: 100%; /* for demo purposes */
+    background-color: #eee; /* for demo purposes */
+}
+
+.box {
+    width: 800px;
+    margin: 5px;
+    padding: 5px;
+    text-align: left;
+    font-family: monospace;
+}
+
+h1 {
+    text-align: center;
+    font-family: monospace;
+}
+
+#bluebox { background: #ddd; }
+
+</style>
+</head>
+<body>
+
+<div id="container"><!-- flex container -->
+
+    <div class="box" id="bluebox"><!-- flex item -->
+        <h1>/* CocoaHeads Atlanta */</h1>
+
+<p>let topic = [<br>
+&nbsp;&nbsp;&nbsp;&nbsp;"<b>presenter</b>": "Gabe Hoffman",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;"<b>title</b>": "TBA",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;"<b>abstract</b>":
+"TBA"<br>
+]</p>
+
+<p>let gettingThere = [<br>
+&nbsp;&nbsp;&nbsp;&nbsp;"<b>dateTime</b>": Date("2016-11-10 19:00:00 -0400"), <b>// November 10, 7pm EDT</b><br>
+&nbsp;&nbsp;&nbsp;&nbsp;"<b>location</b>": "<a href=https://goo.gl/maps/nc5xuCy6ZVJ2>Big Nerd Ranch HQ</a>"<br>
+]</p>
+
+<p>let chapter = [<br>
+&nbsp;&nbsp;&nbsp;&nbsp;"<b>parentOrg</b>": "<a href=http://www.cocoaheads.org/>CocoaHeads</a>",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;"<b>contactEmail</b>": "<a href=mailto:organizer@cocoaheadsatlanta.org>organizer@cocoaheadsatlanta.org</a>",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;"<b>twitter</b>": "<a href=http://www.twitter.com/chatl>@chatl</a>"<br>
+]</p>
+
+    </div>
+
+</div>
+
+</body>
+</html>
