@@ -1,0 +1,72 @@
+<html>
+
+<head>
+<style>
+
+#container {
+    display: flex; /* establish flex container */
+    flex-direction: column; /* make main-axis vertical */
+    justify-content: center; /* align items vertically, in this case */
+    align-items: center; /* align items horizontally, in this case */
+    height: 100%; /* for demo purposes */
+    background-color: #eee; /* for demo purposes */
+}
+
+.box {
+    width: 800px;
+    margin: 5px;
+    padding: 5px;
+    text-align: left;
+    font-family: monospace;
+}
+
+h1 {
+    text-align: center;
+    font-family: monospace;
+}
+
+#bluebox { background: #ddd; }
+
+</style>
+</head>
+<body>
+
+<div id="container"><!-- flex container -->
+
+    <div class="box" id="bluebox"><!-- flex item -->
+        <h1>/* CocoaHeads Atlanta */</h1>
+
+<p>let topicOne = [<br>
+&nbsp;&nbsp;&nbsp;&nbsp;"title": "<b>Custom Data Structures</b>",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;"presenter": "<b>Mikey Ward</b>",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;"abstract":
+<i>"Let's talk about data structures. I know, it's a minefield.
+But we'll tread lightly and talk about what it takes to implement custom
+data structures (such as a Binary Search Tree) in Swift,
+and the sharp corners to avoid."</i><br>
+]</p>
+
+<!-- <p>let topicTwo = [<br>
+&nbsp;&nbsp;&nbsp;&nbsp;"title": "<b>Tales from the Code</b>",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;"presenter": "<b><i>You!</i></b>",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;"abstract":
+<i>"Bring a project, a story, or a challenge you've faced recently or are facing now. Talk it over with the group~ maybe share a trial or tribulation, maybe crowdsource the solution to a problem, or just show off something cool you've done! We're all friends here - come and share!"</i><br>
+]</p> -->
+
+<p>let gettingThere = [<br>
+&nbsp;&nbsp;&nbsp;&nbsp;"dateTime": Date("2017-02-09 19:00:00 -0500"), <b>// February 9th, 7pm EST</b><br>
+&nbsp;&nbsp;&nbsp;&nbsp;"location": "<a href=https://goo.gl/maps/nc5xuCy6ZVJ2>Big Nerd Ranch HQ</a>"<br>
+]</p>
+
+<p>let chapter = [<br>
+&nbsp;&nbsp;&nbsp;&nbsp;"parentOrg": "<a href=http://www.cocoaheads.org/>CocoaHeads</a>",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;"contactEmail": "<a href=mailto:organizer@cocoaheadsatlanta.org>organizer@cocoaheadsatlanta.org</a>",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;"twitter": "<a href=http://www.twitter.com/chatl>@chatl</a>"<br>
+]</p>
+
+    </div>
+
+</div>
+
+</body>
+</html>
